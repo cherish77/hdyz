@@ -1,0 +1,15 @@
+{
+	"options": [
+		{ 	"huodai_comp_text":["huodai1" ,"huodai2" ] ,
+			"businessUnit":["danwei1", "danwei2"] ,
+			"baoguan_comp_text":["declarationCo1", "declarationCo2"] ,
+			"harbour":["toPortShore1", "toPortShore2"] ,
+			"containerType":["containerType1", "containerType2"] ,
+			"package_type":["pakingType1", "pakingType2"] ,
+			"source_area":["originPlace1", "originPlace2"] ,
+			"prod_name":["productName1", "productName2"] ,
+			"chedui":["motorcade1", "motorcade2"] , 
+			"xiangzhu":["containerOwner1", "containerOwner2"]
+		}
+	]
+}

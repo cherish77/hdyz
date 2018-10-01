@@ -1,0 +1,26 @@
+{"XIANGZHU":[{"item_idx":2,"item_key":"XIANGZHU","item_name":"箱主2","item_value":"2"},{"item_idx":1,"item_key"
+:"XIANGZHU","item_name":"箱主1","item_value":"1"}],"SOURCE_PLACE":[{"item_idx":2,"item_key":"SOURCE_PLACE"
+,"item_name":"美国","item_value":"US"},{"item_idx":1,"item_key":"SOURCE_PLACE","item_name":"英国","item_value"
+:"UK"},{"item_idx":3,"item_key":"SOURCE_PLACE","item_name":"加拿大","item_value"
+:"CA"},{"item_idx":4,"item_key":"SOURCE_PLACE","item_name":"澳大利亚","item_value"
+:"AU"},{"item_idx":5,"item_key":"SOURCE_PLACE","item_name":"日本","item_value"
+:"JP"},{"item_idx":6,"item_key":"SOURCE_PLACE","item_name":"其它","item_value"
+:"other"}],"SOURCE_PLACE_OTHER":[{"item_idx":1,"item_key":"SOURCE_PLACE_OTHER"
+,"item_name":"土耳其","item_value":"source_place_other"}], "CONTAINER_TYPE":[{"item_idx":2,"item_key":"CONTAINER_TYPE","item_name":"40'","item_value":"40"
+},{"item_idx":1,"item_key":"CONTAINER_TYPE","item_name":"20'","item_value":"20"}, {"item_idx":3,"item_key":"CONTAINER_TYPE","item_name":"其它","item_value":"others"}],"PACKAGE_TYPE":[{"item_idx":2,"item_key":"PACKAGE_TYPE","item_name":"其它","item_value":"other"},{"item_idx":1,"item_key":"PACKAGE_TYPE"
+,"item_name":"包","item_value":"bao"}],"BUSINESS_UNIT":[{"item_idx":2,"item_key":"BUSINESS_UNIT","item_name"
+:"海南盛大生鲜有限公司","item_value":"2"},{"item_idx":1,"item_key":"BUSINESS_UNIT","item_name":"美国百事公司","item_value"
+:"1"}],"CHEDUI":[{"item_idx":2,"item_key":"CHEDUI","item_name":"车队2","item_value":"2"},{"item_idx":1
+,"item_key":"CHEDUI","item_name":"车队1","item_value":"1"}],"HUODAI_COMP":[{"item_idx":2,"item_key":"HUODAI_COMP"
+,"item_name":"泊金货代","item_value":"2"},{"item_idx":1,"item_key":"HUODAI_COMP","item_name":"远洋物流","item_value"
+:"1"}],"FORM_STATUS":[{"item_idx":1,"item_key":"FORM_STATUS","item_name":"未申请","item_value":"weishenqing"
+},{"item_idx":4,"item_key":"FORM_STATUS","item_name":"待放行","item_value":"daifangxing"},{"item_idx":3
+,"item_key":"FORM_STATUS","item_name":"申请未通过","item_value":"shenqingweitongguo"},{"item_idx":5,"item_key"
+:"FORM_STATUS","item_name":"已放行","item_value":"yifangxing"},{"item_idx":2,"item_key":"FORM_STATUS","item_name"
+:"已申请","item_value":"yishenqing"}],"HARBOUR":[{"item_idx":3,"item_key":"HARBOUR","item_name":"北仑海关","item_value"
+:"beilun"},{"item_idx":4,"item_key":"HARBOUR","item_name":"梅山港区","item_value":"meishan"},{"item_idx"
+:2,"item_key":"HARBOUR","item_name":"乍浦港","item_value":"zhapu"},{"item_idx":1,"item_key":"HARBOUR","item_name"
+:"上海港","item_value":"shanghai"}, {"item_idx":5,"item_key":"HARBOUR","item_name"
+:"其它","item_value":"other"}],"BAOGUAN_COMP":[{"item_idx":2,"item_key":"BAOGUAN_COMP","item_name":"天翼报关","item_value":"2"},{"item_idx":1,"item_key":"BAOGUAN_COMP","item_name":"震昕报关","item_value":"1"}
+],"PROD_NAME":[{"item_idx":2,"item_key":"PROD_NAME","item_name":"其它","item_value":"other"},{"item_idx"
+:1,"item_key":"PROD_NAME","item_name":"废纸","item_value":"feizhi"}]}

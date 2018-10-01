@@ -1,0 +1,214 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>华舵医助 - 后台管理系统</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="../css/uniform.css" />
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="../css/table.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		
+		<script type="text/javascript" src="../script/jquery.js"></script>
+		<script type="text/javascript" src="../script/modernizr.js"></script>
+		<script type="text/javascript" src="../script/bootstrap.js"></script>
+		<script type="text/javascript" src="../script/uniform.js"></script>
+		<script type="text/javascript" src="../script/dataTables.js"></script>
+		<script type="text/javascript" src="../script/datatable-extend.js"></script>
+		<script type="text/javascript" src="../script/common.js"></script>
+	</head>
+	<body>
+		<header>
+		</header>
+		<main id="applicationPage">
+			<div id="top-bar" class="navbar navbar-fixed-top">
+				<div class="navbar-inner">
+					<div class="container-fluid">
+						<a class="brand" href="#">
+							<img src="../img/logo@2x.png" alt="华舵医助" />
+						</a>
+						<div class="nav-collapse collapse">
+							<ul id="main-nav" class="nav pull-left">.
+								<li id="financial-mgr">
+									<a href="#">
+										<img src="../img/caiwu_1@2x.png" alt="财务管理" />
+										<span>财务管理</span>
+									</a>
+								</li>
+								<li id="data-statistics">
+									<a href="#">
+										<img src="../img/shuju_1@2x.png" alt="数据统计" />
+										<span>数据统计</span>
+									</a>
+								</li>
+							</ul>
+							<ul id="user-nav" class="nav pull-right">
+								<li id="userIcon">
+									<a href="#">
+										<img src="../img/touxiang@2x.png" alt="用户头像" />
+									</a>
+								</li>
+								<li id="logout">
+									<a href="#">
+										<img src="../img/guanbi@2x.png" alt="注销" />
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<div class="row-fluid">
+					<div class="span4" id="sidebar">
+						<ul id="main-menu" class="nav nav-list bs-docs-sidenav nav-collapse collapse">
+						</ul>
+					</div>
+					<div class="span8" id="content">
+						<div class="row-fluid">
+							<div class="block">
+								<div class="navbar navbar-inner block-header">
+									<div class="muted pull-left">
+										申请列表
+									</div>
+								</div>
+								<div class="block-content collapse in">
+									<div class="span12">
+										<div id="applicationTable_wrapper" class="dataTables_wrapper form-inline no-footer">
+											<table class="table table-striped table-bordered dataTable no-footer" id="applicationTable" role="grid" aria-describedby="applicationTable_info">
+												<thead>
+													<tr role="row">
+														<th>转关单号</th>
+														<th>报关单号</th>
+														<th>货代公司</th>
+														<!--th>经营单位</th-->
+														<th>报关公司</th>
+														<th>进口口岸</th>
+														<th>集装箱数</th>
+														<!--th>集装箱型号</th-->
+														<!--th>集装箱号</th-->
+														<th>件数</th>
+														<th>毛重</th>
+														<th>包装种类</th>
+														<th>原产地</th>
+														<th>提运单号</th>
+														<th>商品名称</th>
+														<th>存放地</th>
+														<th>车队</th>
+														<th>箱主</th>
+														<th>申请状态</th>
+														<th>操作</th>
+													</tr>
+												</thead>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+		</footer>
+		<button class="btn btn-info hide" data-toggle="modal" data-target=".modal-dataDetail">详细</button>
+		<div class="modal fade modal-dataDetail" tabindex="-1" role="dialog" aria-labelledby="dataDetailModal" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title dataDetailModal">详细信息</h4>
+					</div>
+					<div class="modal-body">
+						<ul class="detail-list">
+							<li>
+								<label>转关单号： </label><span data-title="zhuanguan_num">510251365425524</span>
+							</li>
+							<li>
+								<label>报关单号： </label><span data-title="baoguan_num">AA9500064236</span>
+							</li>
+							<li>
+								<label>货代公司： </label><span data-title="huodai_comp_text">远洋物流</span>
+							</li>
+							<!--li>
+								<label>经营单位： </label><span data-title="businessUnit">美国百事公司</span>
+							</li-->
+							<li>
+								<label>报关公司： </label><span data-title="baoguan_comp_text">杭州中外运报关有限公司</span>
+							</li>
+							<li>
+								<label>进口口岸： </label><span data-title="harbour">宁波港</span>
+							</li>
+							<li>
+								<label>集装箱数： </label><span data-title="container_account">25</span>
+							</li>
+							<!--li>
+								<label>集装箱型号： </label><span data-title="containerType">小柜</span>
+							</li-->
+							<!--li>
+								<label>集装箱号： </label><span data-title="containerNo">KNYY7844635</span>
+							</li-->
+							<li>
+								<label>件数： </label><span data-title="total_count">100</span>
+							</li>
+							<li>
+								<label>毛重(KG)： </label><span data-title="total_weight">2305</span>
+							</li>
+							
+							<li>
+								<label>包装种类： </label><span data-title="package_type">默认包</span>
+							</li>
+							<li>
+								<label>原产地： </label><span data-title="source_area">新疆</span>
+							</li>
+							<li>
+								<label>提运单号： </label><span data-title="tiyun_num">ZN7845102562576362</span>
+							</li>
+							<li>
+								<label>商品名称： </label><span data-title="prod_name">芒果</span>
+							</li>
+							<li>
+								<label>存放地： </label><span data-title="warehouse">杭州 - 3号货仓</span>
+							</li>
+							<li>
+								<label>车队： </label><span data-title="chedui">默认车队 - 1</span>
+							</li>
+							<li>
+								<label>箱主： </label><span data-title="xiangzhu">杜宇</span>
+							</li>
+							<li>
+								<label>状态： </label><span data-title="form_status">未申请</span>
+							</li>
+						</ul>
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+		<button class="btn btn-info hide" data-toggle="modal" data-target=".modal-containerDetail">集装箱详细</button>
+		<div class="modal fade modal-containerDetail" tabindex="-1" role="dialog" aria-labelledby="containerDetailModal" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title containerDetailModal">集装箱详情</h4>
+					</div>
+					<div class="modal-body">
+						<table class="table table-striped table-bordered dataTable no-footer" id="toReleaseTable" role="grid" aria-describedby="toReleaseTable_info">
+							<thead>
+								<tr role="row">
+									<th>集装箱号</th>
+									<th>进场</th>
+									<th>离场</th>
+									<th>进厂</th>
+								</tr>
+							</thead>
+							<tbody>
+								
+							</tbody>
+						</table>
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+	</body>
+</html>
