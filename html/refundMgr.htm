@@ -19,7 +19,7 @@
 	<body>
 		<header>
 		</header>
-		<main id="applicationPage">
+		<main id="refund-reservation-page">
 			<div id="top-bar" class="navbar navbar-fixed-top">
 				<div class="navbar-inner">
 					<div class="container-fluid">
@@ -59,18 +59,43 @@
 			</div>
 			<div class="container-fluid">
 				<div class="row-fluid">
-					<div class="span4" id="sidebar">
-						<ul id="main-menu" class="nav nav-list bs-docs-sidenav nav-collapse collapse">
+					<div class="span2 block" id="sidebar">
+						<div id="menu-title">
+							<div class="pull-left">
+								<img src="../img/caiwu_2@2x.png" alt="财务管理" />
+								<span>财务管理</span>
+							</div>
+							<div class="pull-right"><span></span></div>
+						</div>
+							
+						<ul id="main-menu" class="nav nav-list bs-docs-sidenav nav-collapse collapse menu-level-1">
+							<li class="active">
+								<span class="menu-icon"></span>
+								<span class="menu-desc">退款管理</span>
+								<span class="menu-according"></span>
+								<ul class="menu-level-2">
+									<li>
+										<span class="menu-icon"></span>
+										<span class="menu-desc">咨询</span>
+									</li>
+									<li>
+										<span class="menu-icon"></span>
+										<span class="menu-desc">预约</span>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<ul id="main-menu" class="nav nav-list bs-docs-sidenav nav-collapse collapse menu-level-1">
+							<li>
+								<span class="menu-icon"></span>
+								<span class="menu-desc">提现管理</span>
+								<span class="menu-according"></span>
+							</li>
 						</ul>
 					</div>
-					<div class="span8" id="content">
+					<div class="span10" id="content">
 						<div class="row-fluid">
 							<div class="block">
-								<div class="navbar navbar-inner block-header">
-									<div class="muted pull-left">
-										申请列表
-									</div>
-								</div>
 								<div class="block-content collapse in">
 									<div class="span12">
 										<div id="applicationTable_wrapper" class="dataTables_wrapper form-inline no-footer">

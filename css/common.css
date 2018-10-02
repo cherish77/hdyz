@@ -106,10 +106,12 @@ span.label-content {
 
 #sidebar {
 	width: 270px;
+	background-color: #FFFFFF;
 }
 
 #content {
 	margin-left: 20px;
+	width: calc(100% - 290px);
 }
 
 .form-page fieldset{
@@ -222,6 +224,46 @@ span.view-containers {
 	
 }
 
+#menu-title {
+	height: 111px;
+}
+
+#menu-title .pull-left {
+	width: 250px;
+	padding: 23px 0 0;
+}
+
+#menu-title .pull-left img, 
+#menu-title .pull-left span {
+	display: block;
+	margin: 0 auto;
+}
+
+#menu-title .pull-left span {
+	width: 72px;
+	color: #05A1F2;
+	font-size: 18px;
+	margin-top: 14px;
+	font-family:PingFang-SC-Regular;
+}
+
+#menu-title .pull-right {
+	width: 20px;
+	height: 111px;
+	background-color: #CFCFCF;
+}
+
+#menu-title .pull-right span {
+	width: 0px;
+	height: 0px;
+	display: block;
+	margin: 48px -5px 47px;
+	border-top:8px solid transparent;
+    border-right:10px solid #FFFFFF;
+    border-bottom:8px solid transparent;
+    border-left:10px solid transparent;
+}
+
 /*--- Side Bar ---*/
 .bs-docs-sidenav {
 	margin: 15px 0 0;
@@ -296,7 +338,6 @@ ul.detail-list li {
 
 /* block */
 .block {
-    border: 1px solid #ccc;
     background: white;
     margin: 1em 0em;
     border-top: none;

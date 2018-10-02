@@ -100,24 +100,6 @@ $(document).on("click", ".action-logout", function(){
 
 // Dom Ready
 $(document).ready(function() {
-	$("span.display-username").text(currentUserObj.user_name);
-	
-	
-	// load menu
-	$.ajax({ 
-        url:"https://cherish77.github.io/ShiftSupervisionSystem/data/menulist.json", 
-        type:'GET', 
-        success: function(data) {
-			for(var i=0; i<data.length; i++){
-				$("#main-menu").append('<li class="inactive"><a href="' + data[i].url + '" target="_self"><span class="icon-chevron-right"></span>' + data[i].res_name + '</a></li>');
-			}
-			$("#main-menu li a[href='" + current_path + "']").closest("li").attr("class", "active");
-        }
-
-	});
-	
-	// chosen
-	// $(".chzn-select").chosen();
 	
 	// index page 
 	if($("#indexPage").length > 0) {
@@ -388,8 +370,8 @@ $(document).ready(function() {
 	}
 	
 	
-	// applicationTable page
-	if($("#applicationPage").length > 0) {
+	// refund-reservation page
+	if($("#refund-reservation-page").length > 0) {
 		var applicationTable = $("#applicationTable").DataTable({
 			//"bStateSave": true,
 			"sPaginationType": "bootstrap", 
